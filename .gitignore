@@ -1,0 +1,34 @@
+# Abaikan file dan folder checkpoint Jupyter
+**/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# Abaikan file output sementara Jupyter
+*.nbconvert.ipynb
+
+# Abaikan file data besar (opsional, jika ingin)
+data/*.csv
+
+# Abaikan file sementara sistem
+.DS_Store
+Thumbs.db
+
+# Abaikan file dan folder Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Abaikan virtual environment (jika kamu menggunakannya)
+env/
+venv/
+ENV/
+.venv/
+
+# Abaikan file log dan database (jika ada)
+*.log
+*.sqlite3
+
+# Abaikan file konfigurasi editor (opsional)
+.vscode/
+*.sublime-project
+*.sublime-workspace
